@@ -1,0 +1,14 @@
+.container-item {
+  width: auto;
+  text-decoration: none;
+  font-size: 500px;
+}
+
+.Card-Prod {
+  display: flex;
+  margin: 10px;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  text-decoration: none;
+}

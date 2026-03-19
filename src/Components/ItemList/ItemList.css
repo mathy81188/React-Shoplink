@@ -1,0 +1,19 @@
+.container-il {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+  text-decoration: none;
+}
+
+.Card-Prod {
+  display: flex;
+  margin: 10px;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+}
