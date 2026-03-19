@@ -7,13 +7,10 @@ import ItemList from "../ItemList/ItemList";
 
 const ItemListContainer = () => {
   const [prods, setProds] = useState([]);
-  const [loading, setLoading] = useState(true); // control de estado de carga
-  
+
   const { id } = useParams();
 
   useEffect(() => {
-    setLoading(true); // Cada vez que cambia el id, vuelve a cargar
-
     const collectionRef = id
       ? query(collection(db, "productos"), where("category", "==", id))
       : collection(db, "productos");
@@ -27,12 +24,8 @@ const ItemListContainer = () => {
         setProds(prodsAdapted);
       })
       .catch((error) => {
-        console.log("Error de Firebase:", error);
-      })
-      .finally(() => {
-        setLoading(false); // Finaliza la carga después de obtener los datos o en caso de error
+        console.log(error);
       });
-
   }, [id]);
 
   return (
