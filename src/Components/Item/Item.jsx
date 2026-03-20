@@ -11,8 +11,8 @@ import {
 const Item = ({ prod }) => {
   return (
     <div>
-      <Card className="Card-Prod" sx={{ maxWidth: 300 }}>
-        <CardActionArea>
+      <Card className="Card-Prod" sx={{ maxWidth: 350 }}>
+         <CardActionArea>
           <CardMedia component="img" image={prod.img} alt="green iguana" />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -22,7 +22,7 @@ const Item = ({ prod }) => {
               {`$${prod.price}`}
             </Typography>
           </CardContent>
-        </CardActionArea>
+       </CardActionArea> 
       </Card>
     </div>
   );

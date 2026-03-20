@@ -8,9 +8,11 @@ import ItemDetailContainer from "./Components/ItemDetailContainer/ItemDetailCont
 import CartContextProvider from "./Components/CartContext/CartContext";
 import Cart from "./Components/Cart/Cart";
 import Checkout from "./Components/Checkout/Checkout";
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
+    
     <CartContextProvider>
       <div className="App">
         <Router>
@@ -23,8 +25,10 @@ const App = () => {
             <Route path="/checkout" element={<Checkout />} />
           </Routes>
         </Router>
+        <Footer />
       </div>
     </CartContextProvider>
+
   );
 };
 

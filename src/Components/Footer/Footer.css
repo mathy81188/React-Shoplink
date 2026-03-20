@@ -1,0 +1,55 @@
+.footer {
+  background-color: #1a1a1a; /* Un negro mate, no puro */
+  color: #ffffff;
+  padding: 60px 20px 20px;
+  margin-top: 80px; /* Separación del contenido principal */
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-brand h2 {
+  color: #ff9f43; /* Un naranja vibrante para el logo */
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.footer-links h4, .footer-contact h4 {
+  border-bottom: 2px solid #ff9f43;
+  display: inline-block;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #ff9f43;
+}
+
+.footer-copy {
+  text-align: center;
+  margin-top: 50px;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  font-size: 0.9rem;
+  color: #777;
+}
