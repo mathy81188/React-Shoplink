@@ -7,10 +7,7 @@ E-commerce SuperLink desarrollado para negocio gastronomico con filtros por cate
 Dentro del area del carrito se veran reflejados todos los productos agregados en el, mas la posibilidad de eliminar el item del carrito. Tambien se dispondra a simple vista del precio total de los productos de carrito con dos botones, vaciar carrito y finalizar comprar. Finalizar compra redirigira a una seccion con formulario, se debe completar para terminar la orden y recibir el id de la compra realizada.
 
 Los prodctos se encuentran en coleccion en firebase
-"firebase": "^10.0.0"
-
-PD: En la carpeta Public se encuentra el gif de demostracion
-
+"firebase" y las imagenes en Cloudinary.
 ---
 
 ## Instalacion
@@ -31,7 +28,7 @@ npm run dev
 
 ---
 
-"react-router-dom": "^6.13.0"
+"react-router-dom": "^6.28.0"
 
 ---
 
