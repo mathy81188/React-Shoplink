@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# Proyecto SuperLick para curso de React Js
+# Proyecto SuperLink para curso de React Js
 
 ---
 
@@ -46,6 +46,5 @@ npm run dev
 
 ```
 =======
-# React-Shoplink
-Proyecto de coderhouse ,final react
->>>>>>> b4e56b58c5bbed9292b4d4b9fb5d9b5355fa7b0a
+
+
